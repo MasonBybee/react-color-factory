@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+}
+
+.Home-navdiv {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: whitesmoke;
+}
+.Home-div-addAColor,
+.Home-div-Welcome,
+.Home-div-addAColor-a {
+  text-align: center;
+  color: whitesmoke;
+}
+.Home-div-addAColor-a:visited {
+  color: white;
+}
+.Home-div-Welcome {
+  margin-top: 50px;
+}
+
+.Home-colors {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+.SolidColor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.SolidColor-h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.SolidColor-h1 a:visited {
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.formDiv {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 40px;
+}
+.formDiv-h1 {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
